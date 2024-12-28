@@ -18,7 +18,7 @@ export const PostShow = () => {
       enabled: !!record,
     },
   });
-
+  
   return (
     <Show isLoading={isLoading}>
       <Title level={5}>Id</Title>

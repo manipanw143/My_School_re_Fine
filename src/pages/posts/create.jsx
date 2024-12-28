@@ -11,7 +11,7 @@ export const PostCreate = () => {
   const { selectProps: categorySelectProps } = useSelect({
     resource: "categories",
   });
-
+  
   return (
     <Create saveButtonProps={saveButtonProps}>
       <Form {...formProps} layout="vertical">
